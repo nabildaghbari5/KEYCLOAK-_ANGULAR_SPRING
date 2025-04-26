@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "esnext",         // Compatible avec Angular
+    "moduleResolution": "bundler", // Alternative moderne
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@decoupage/data-access": ["shared/data/src/index.ts"],
+      "@decoupage/ui": ["shared/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
