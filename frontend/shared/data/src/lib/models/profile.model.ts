@@ -1,5 +1,7 @@
 export interface Profile {
-  id: number;
-  name: string;
-  email: string;
+  username?: string;
+  email?: string;
+  firstName?: string;
+  lastName?: string;
+  token?: string;
 }

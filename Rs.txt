@@ -71,7 +71,9 @@ Les etapes sur keycloak :
 ==>  npx nx g service keycloak --project=data-access
 
 
+************************************************************************************
 
+===> Commande de run image keycloak last : docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:latest start-dev
 
 
 
